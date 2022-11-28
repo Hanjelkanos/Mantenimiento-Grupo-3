@@ -46,6 +46,10 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+		<properties>
+  			<sonar.organization>hanjelkanos</sonar.organization>
+  			<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		</properties>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
